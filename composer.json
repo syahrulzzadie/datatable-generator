@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "syahrulzzadie\\Datatable\\" : "src/"
+            "syahrulzzadie\\DatatableGenerator\\" : "src/"
         }
     },
     "require": {
