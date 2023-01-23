@@ -3,6 +3,7 @@
     "description": "Datatatable Generator for Laravel 8+",
     "type": "library",
     "license": "MIT",
+    "version": "1.0",
     "authors": [
         {
             "name": "Syahrul Adiguna Kurniawan",
