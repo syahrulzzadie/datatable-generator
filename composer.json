@@ -1,0 +1,22 @@
+{
+    "name": "syahrulzzadie/datatable-generator",
+    "description": "Datatatable Generator for Laravel 8+",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Syahrul Adiguna Kurniawan",
+            "email": "syahrulzzadie@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "syahrulzzadie\\DatatableGenerator\\" : "src/"
+        }
+    },
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/framework": "^8.12"
+    }
+}
