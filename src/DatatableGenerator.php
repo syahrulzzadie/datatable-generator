@@ -5,7 +5,7 @@ namespace syahrulzzadie\DatatableGenerator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
 
-class DatatablesGenerator
+class DatatableGenerator
 {
     protected static $draw = 0;
     protected static $index = false;
